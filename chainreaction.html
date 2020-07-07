@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+      .difficulty >select{
+        width: 120px;
+        height: 30px;
+        background-color: black;
+        color: white;
+        border-radius: 5px;
+      }
+      .playerScore{
+        /* width: 120px;
+        height: 30px; */
+        background-color: black;
+        color: white;
+        align-items: center;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        justify-content: space-evenly;
+        border-radius: 10px;
+        margin-left: 10px;
+      }
+      .playerScore>*{
+        margin-left: 5px;
+      }
+      .playerScore>span{
+        margin-left: 10px;
+      }
+    .control{
+      width: 50%;
+      margin: auto;
+      align-items: center;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+    }
+    body{
+      background-color: rgba(20, 9, 110, 0.993);
+    }
+    #myCanvas{
+      background-color: black;
+      border-radius: 10px;
+    }
+    </style>
+</head>
+<body>
+    <!-- <div class="mainCont">
+        <button class="resetBtn">reset</button>
+    <input type="text" placeholder="Player Name">
+    <div class="players" style="width:200px;">
+        <select>
+          <option selected value="0">Select Player:</option>
+        </select>
+      </div> -->
+      <div class="control">
+        <div class="difficulty" >
+          <select >
+            <!-- <option disabled selected value="0">Select difficulty level:</option> -->
+            <option selected value="normal">normal</option>
+            
+            <option  value="surreal mode">surreal mode</option>
+          </select>
+        </div>
+        <div class="playerScore">
+          <span> level: </span>
+          <p class="level">1</p>
+          <span>balls to hit:</span>
+           <p class="reqHits">2</p>
+           <span>balls hit:</span>
+           <p class="recHits">0 of 10</p>
+          <span>score: </span>
+          <p class="score">0</p>
+          <span>lives: </span>
+          <p class="lives">3</p>
+        </div>
+      </div>
+      
+    <!-- <div class="ballsColor" style="width:200px;">
+        <select>
+          <option selected value="0">Select Balls :</option>
+        </select>
+      </div>
+      <div class="backgroundColor" style="width:200px;">
+        <select>
+          <option selected value="0">Select background :</option>
+        </select>
+      </div>
+
+      <input type="color" name="colorPallette" id="">
+      <div class="colorOutput"></div> -->
+      <hr>
+    <canvas id="myCanvas"  style="border:1px solid #000000;"></canvas>
+   
+    </div>
+     <script src="js/chainreaction.js"></script>
+</body>
+</html>

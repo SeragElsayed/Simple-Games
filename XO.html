@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+   
+     <title>XO_game</title>
+<link href="css/style.css" rel="stylesheet" type="text/css"  />
+     
+</head>
+<style>
+  *{
+    margin: 0px;
+    padding: 0px;
+  }
+.m1{
+   width: 400px;
+   height: 400px;
+   margin:  auto;
+   padding: 300px;
+
+  }
+  .winnerPort{
+    
+    color: orange;
+    width: 400px;
+    height: 50px;
+    text-align: center;
+    margin: auto;
+   margin-top: -200px;
+   padding: 25px;
+    
+  }
+  .square{
+   width: 120px;
+   height: 120px;
+   background:rgb(35, 81, 156);
+   margin: 5px;
+   font-size: 108px;
+   font-family: sans-serif;
+   text-align: center;
+   color: white;
+   cursor: pointer;
+   float: left;
+  }
+  
+ #logo{
+   margin-left: 500px;
+ }
+#menu{
+  margin-right: 700px;
+}
+</style>
+
+<body>    
+  <div id="logo">
+    <h1><a href="#">start</a></h1>
+    <h3 id="part2">Game</h3>
+  </div> 
+  <div id="menu">
+    <ul>
+      <li class="item"><a href="index.html">Home</a></li>
+     </ul>
+  </div>  
+<div class="m1">
+    
+      <div class="square" id="s1" onclick="insert(this.id)"></div>
+      <div class="square" id="s2" onclick="insert(this.id)"></div>
+      <div class="square" id="s3" onclick="insert(this.id)"></div>
+      <div class="square" id="s4" onclick="insert(this.id)"></div>
+      <div class="square" id="s5"onclick="insert(this.id)"></div>
+      <div class="square" id="s6" onclick="insert(this.id)"></div>
+      <div class="square" id="s7" onclick="insert(this.id)"></div>
+      <div class="square" id="s8" onclick="insert(this.id)"></div>
+      <div class="square" id="s9" onclick="insert(this.id)"></div>
+</div>
+<div class="winnerPort">
+  
+</div>
+
+<div id="wrapper">
+	<div id="header-wrapper">
+		<div id="header" class="container">
+			
+			
+		</div>
+		 
+	
+ 
+    <script src="js/XO.js">
+    </script>
+</body>
+</html>

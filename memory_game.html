@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<link href="css/style.css" rel="stylesheet" type="text/css"  />
+	 <title>Memory Game</title>
+</head>
+<style>
+.table{
+	text-align: center;
+	margin-left: 900px;
+	margin-top: 130px;
+	 
+	background-color:white;
+}
+#logo{
+	margin-left: 600px;
+}
+img{
+	width: 200px;
+	height: 200px;
+}
+#logo{
+   margin-left: 500px;
+ }
+#menu{
+  margin-right: 700px;
+}
+</style>
+<body>
+    <div id="logo">
+		<h1><a href="#">start</a></h1>
+		<h3 id="part2">Game</h3>
+	  </div> 
+	  <div id="menu">
+		<ul>
+		  <li class="item"><a href="index.html">Home</a></li>
+		 </ul>
+	  </div>  
+	
+	 
+ 
+
+	<table  class="table" border="7">
+	
+      <tr>
+	  <td><img src="images/download1.jpg" onclick="choose(0)"/></td>
+	  
+      <td><img src="images/download1.jpg" onclick="choose(1)"/></td>
+	  <td><img src="images/download1.jpg" onclick="choose(2)"/></td>
+	  <td><img src="images/download1.jpg" onclick="choose(3)"/></td>
+
+
+	  </tr>
+	  <br>
+	  <tr>
+		<td><img src="images/download1.jpg" onclick="choose(4)"></td>
+		<td><img src="images/download1.jpg" onclick="choose(5)"></td>
+		<td><img src="images/download1.jpg" onclick="choose(6)"></td>
+		<td><img src="images/download1.jpg" onclick="choose(7)"></td>
+	<br>
+	<tr>
+		<td><img src="images/download1.jpg" onclick="choose(8)"></td>
+		<td><img src="images/download1.jpg" onclick="choose(9)"></td>
+		<td><img src="images/download1.jpg" onclick="choose(10)"></td>
+		<td><img src="images/download1.jpg" onclick="choose(11)"></td>
+	</tr>  
+</table>
+
+		<script src="js/memory.js">
+		</script>
+</body>
+</html>
