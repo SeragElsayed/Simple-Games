@@ -3,6 +3,10 @@
 <head>
 	<meta charset="UTF-8">
 	<link href="css/style.css" rel="stylesheet" type="text/css"  />
+	<!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.bundle.min.js" integrity="sha384-1CmrxMRARb6aLqgBO7yyAxTOQE2AKb9GfXnEo760AUcUmFx3ibVJJAzGytlQcNXd" crossorigin="anonymous"></script> -->
+	
 	 <title>Memory Game</title>
 </head>
 <style>
@@ -28,6 +32,8 @@ img{
 }
 </style>
 <body>
+	<div class="d-flex flex-col">
+
     <div id="logo">
 		<h1><a href="#">start</a></h1>
 		<h3 id="part2">Game</h3>
@@ -39,9 +45,10 @@ img{
 	  </div>  
 	
 	 
- 
+ <div style="text-align: center">
 
-	<table  class="table" border="7">
+
+	<table  class="table" >
 	
       <tr>
 	  <td><img src="images/download1.jpg" onclick="choose(0)"/></td>
@@ -65,7 +72,10 @@ img{
 		<td><img src="images/download1.jpg" onclick="choose(10)"></td>
 		<td><img src="images/download1.jpg" onclick="choose(11)"></td>
 	</tr>  
+	
 </table>
+</div>
+</div>
 
 		<script src="js/memory.js">
 		</script>
